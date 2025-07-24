@@ -1,0 +1,82 @@
+📱 PRÉPARATION TÉLÉPHONE ANDROID
+═══════════════════════════════════════
+
+🔧 PARAMÈTRES À ACTIVER :
+
+1️⃣ SOURCES INCONNUES
+   • Paramètres → Sécurité
+   • "Installer des apps d'origine inconnue" → ON
+   • OU "Sources inconnues" → ON
+
+2️⃣ MODE DÉVELOPPEUR (optionnel mais recommandé)
+   • Paramètres → À propos du téléphone
+   • Tapez 7 fois sur "Numéro de build"
+   • Retour → Options de développement
+   • "Débogage USB" → ON
+
+3️⃣ ESPACE LIBRE
+   • Vérifiez au moins 100 MB libre
+   • Votre jeu ≈ 50-80 MB
+
+══════════════════════════════════════
+
+🚀 INSTALLATION DE L'APK :
+
+Méthode 1 : TÉLÉCHARGEMENT DIRECT
+   1. Téléchargez l'APK sur votre téléphone
+   2. Ouvrez le fichier depuis les téléchargements
+   3. "Installer" → "Installer quand même"
+   4. L'icône apparaît sur votre écran d'accueil
+
+Méthode 2 : CÂBLE USB
+   1. Copiez l'APK sur votre téléphone via USB
+   2. Ouvrez un gestionnaire de fichiers
+   3. Naviguez vers l'APK
+   4. Tapez dessus → Installer
+
+Méthode 3 : ADB (technique)
+   adb install votre-jeu.apk
+
+══════════════════════════════════════
+
+🎮 PREMIER LANCEMENT :
+
+⚠️  IMPORTANT : 
+   • Premier lancement = peut prendre 30-60 secondes
+   • L'app doit extraire les ressources
+   • Ne pas fermer pendant l'initialisation !
+
+✅ Si tout va bien :
+   • Interface mobile adaptée
+   • Mode portrait
+   • Boutons tactiles optimisés
+   • Connexion automatique au serveur (si disponible)
+
+══════════════════════════════════════
+
+🔧 DÉPANNAGE :
+
+❌ "App non installée"
+   → Activez "Sources inconnues"
+   → Vérifiez l'espace libre
+
+❌ App plante au lancement  
+   → Vérifiez les logs Android
+   → Testez d'abord sur PC
+
+❌ Écran noir
+   → Attendez 60 secondes
+   → Redémarrez l'app
+
+❌ Boutons trop petits
+   → Configuration mobile automatique
+   → Signaler pour ajustements
+
+══════════════════════════════════════
+
+🏆 RÉSULTAT ATTENDU :
+   Votre jeu de stratégie de 600h de dev
+   qui tourne exactement comme sur PC
+   mais optimisé pour mobile ! 🎮📱
+
+══════════════════════════════════════

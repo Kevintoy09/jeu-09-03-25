@@ -1,0 +1,62 @@
+📱 GITHUB ACTIONS - GUIDE VISUEL
+══════════════════════════════════════
+
+🌐 ÉTAPE 1 : ACCÈS
+   URL : https://github.com/Kevintoy09/jeu-09-03-25/actions
+
+🎯 ÉTAPE 2 : LANCEMENT
+   1. Cliquez sur "Build Android APK"
+   2. Bouton "Run workflow" (vert, en haut à droite)
+   3. Dans la popup : "Run workflow" encore
+   4. Attendez quelques secondes
+
+🔍 ÉTAPE 3 : MONITORING
+   Vous verrez apparaître :
+   
+   🔵 Build Android APK #1  ← Cliquez ici pour voir les détails
+      ├── 📥 Checkout code
+      ├── 🐍 Setup Python  
+      ├── ☕ Setup Java
+      ├── 🤖 Setup Android SDK
+      ├── 📦 Install dependencies
+      ├── 🗂️ Cache Buildozer  
+      ├── 🔨 Build APK        ← Étape la plus longue !
+      ├── 📤 Upload APK
+      └── 🎉 Success
+
+⏱️ SIGNIFICATION DES COULEURS :
+   🔵 Bleu   = En cours d'exécution
+   ✅ Vert   = Terminé avec succès  
+   ❌ Rouge  = Erreur (on debug ensemble)
+   ⚪ Gris   = En attente
+
+📥 ÉTAPE 4 : TÉLÉCHARGEMENT (quand tout est vert)
+   1. Cliquez sur le build terminé
+   2. Descendez vers "Artifacts"  
+   3. Cliquez sur "android-apk"
+   4. Téléchargement automatique du ZIP
+   5. Décompressez → Votre APK ! 🎮
+
+══════════════════════════════════════
+
+🚨 PROBLÈMES POSSIBLES :
+
+❌ "No workflows found"
+   → Le fichier .github/workflows/build-apk.yml n'est pas pushé
+   → Solution : Re-push le code
+
+❌ "Permission denied"  
+   → Vérifiez les settings du repository
+   → Actions doit être activé
+
+❌ Build échoue à "Build APK"
+   → On analyse les logs ensemble
+   → 90% des problèmes = dépendances
+
+💡 TIPS :
+   • Première compilation = 45-60 min
+   • Compilations suivantes = 15-30 min (cache)
+   • Vous pouvez fermer votre PC, ça continue !
+   • GitHub garde l'APK 90 jours
+
+══════════════════════════════════════
