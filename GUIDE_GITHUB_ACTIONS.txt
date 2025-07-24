@@ -1,0 +1,37 @@
+🏆 GUIDE GITHUB ACTIONS - COMPILATION CLOUD
+═══════════════════════════════════════════════
+
+🎯 AVANTAGES :
+• ✅ Aucune installation sur votre PC
+• ✅ Environnement Linux propre
+• ✅ Évite TOUS les problèmes Windows/NDK/SDK
+• ✅ Gratuit (2000 minutes/mois)
+• ✅ APK téléchargeable directement
+
+📋 ÉTAPES :
+
+1️⃣ PUSH VERS GITHUB
+   git add .
+   git commit -m "Préparation compilation APK"
+   git push origin master
+
+2️⃣ LANCER LA COMPILATION
+   • Allez sur GitHub.com → votre repo
+   • Actions → "Build Android APK"
+   • "Run workflow" → "Run workflow"
+
+3️⃣ ATTENDRE (30-60 min)
+   • Suivez les logs en temps réel
+   • ✅ = Étape réussie
+   • ❌ = Erreur (on debug ensemble)
+
+4️⃣ TÉLÉCHARGER APK
+   • Fin de compilation → Artifacts
+   • Téléchargez "android-apk"
+   • Décompressez → Votre APK !
+
+🔧 DÉPANNAGE :
+• Si erreur → On analyse les logs GitHub
+• Beaucoup plus simple que debug local
+
+═══════════════════════════════════════════════

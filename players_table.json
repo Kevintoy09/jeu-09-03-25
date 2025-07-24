@@ -1,0 +1,34 @@
+{
+    "players": [
+        {
+            "id_player": "player_1",
+            "username": "k",
+            "password": ""
+        },
+        {
+            "id_player": "player_2",
+            "username": "t",
+            "password": ""
+        },
+        {
+            "id_player": "player_3",
+            "username": "n",
+            "password": ""
+        },
+        {
+            "id_player": "player_4",
+            "username": "o",
+            "password": ""
+        },
+        {
+            "id_player": "player_5",
+            "username": "b",
+            "password": ""
+        },
+        {
+            "id_player": "player_6",
+            "username": "p",
+            "password": ""
+        }
+    ]
+}

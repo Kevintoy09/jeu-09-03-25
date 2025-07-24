@@ -1,0 +1,423 @@
+[
+  {
+    "name": "Island 1",
+    "coords": [
+      32,
+      13
+    ],
+    "background": "assets/backgrounds/island_stone.png",
+    "base_resource": "stone",
+    "advanced_resource": "marble",
+    "city_layout": "city_type_1",
+    "elements": [
+      {
+        "type": "city",
+        "id": "city_id_1",
+        "name": "City 1",
+        "owner": null,
+        "city_coords": [
+          652,
+          998
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_2",
+        "name": "City 2",
+        "owner": null,
+        "city_coords": [
+          862,
+          385
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_3",
+        "name": "City 3",
+        "owner": null,
+        "city_coords": [
+          1188,
+          1146
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_14",
+        "name": "City 14",
+        "owner": null,
+        "city_coords": [
+          1207,
+          1554
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_15",
+        "name": "City 15",
+        "owner": null,
+        "city_coords": [
+          516,
+          1394
+        ],
+        "controlable": true
+      },
+      {
+        "type": "quarry",
+        "city_coords": [
+          979,
+          1029
+        ]
+      },
+      {
+        "type": "marble_mine",
+        "city_coords": [
+          1396,
+          512
+        ]
+      },
+      {
+        "type": "forest",
+        "city_coords": [
+          838,
+          727
+        ]
+      },
+      {
+        "type": "wild_village",
+        "city_coords": [
+          779,
+          1781
+        ]
+      },
+      {
+        "type": "forum",
+        "city_coords": [
+          1121,
+          765
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Island 2",
+    "coords": [
+      38,
+      40
+    ],
+    "background": "assets/backgrounds/island_iron.png",
+    "base_resource": "iron",
+    "advanced_resource": "horse",
+    "resource_sites": {
+      "iron_mine": {
+        "level": 1,
+        "donations": 0
+      },
+      "steel_factory": {
+        "level": 1,
+        "donations": 0
+      },
+      "forest": {
+        "level": 1,
+        "donations": 0
+      }
+    },
+    "elements": [
+      {
+        "type": "city",
+        "id": "city_id_4",
+        "name": "City 1",
+        "owner": null,
+        "city_coords": [
+          231,
+          927
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_5",
+        "name": "City 2",
+        "owner": null,
+        "city_coords": [
+          1039,
+          510
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_6",
+        "name": "City 3",
+        "owner": null,
+        "city_coords": [
+          1392,
+          673
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_16",
+        "name": "City 16",
+        "owner": null,
+        "city_coords": [
+          754,
+          1307
+        ],
+        "controlable": true
+      },
+      {
+        "type": "iron_mine",
+        "city_coords": [
+          1176,
+          965
+        ]
+      },
+      {
+        "type": "horse_ranch",
+        "city_coords": [
+          1184,
+          1251
+        ]
+      },
+      {
+        "type": "forest",
+        "city_coords": [
+          1024,
+          1058
+        ]
+      },
+      {
+        "type": "wild_village",
+        "city_coords": [
+          1020,
+          1676
+        ]
+      },
+      {
+        "type": "forum",
+        "city_coords": [
+          451,
+          377
+        ]
+      }
+    ],
+    "city_layout": "city_type_2"
+  },
+  {
+    "name": "Island 3",
+    "coords": [
+      36,
+      38
+    ],
+    "background": "assets/backgrounds/island_cereal.png",
+    "base_resource": "cereal",
+    "advanced_resource": "meat",
+    "resource_sites": {
+      "grain_field": {
+        "level": 1,
+        "donations": 0
+      },
+      "brewery": {
+        "level": 1,
+        "donations": 0
+      },
+      "forest": {
+        "level": 1,
+        "donations": 0
+      }
+    },
+    "elements": [
+      {
+        "type": "city",
+        "id": "city_id_7",
+        "name": "City 1",
+        "owner": null,
+        "city_coords": [
+          674,
+          916
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_8",
+        "name": "City 2",
+        "owner": null,
+        "city_coords": [
+          965,
+          1514
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_9",
+        "name": "City 3",
+        "owner": null,
+        "city_coords": [
+          302,
+          1057
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_17",
+        "name": "City 17",
+        "owner": null,
+        "city_coords": [
+          802,
+          1057
+        ],
+        "controlable": true
+      },
+      {
+        "type": "grain_field",
+        "city_coords": [
+          1531,
+          281
+        ]
+      },
+      {
+        "type": "pasture",
+        "city_coords": [
+          1302,
+          1347
+        ]
+      },
+      {
+        "type": "forest",
+        "city_coords": [
+          517,
+          1830
+        ]
+      },
+      {
+        "type": "wild_village",
+        "city_coords": [
+          1367,
+          931
+        ]
+      },
+      {
+        "type": "forum",
+        "city_coords": [
+          1114,
+          675
+        ]
+      }
+    ],
+    "city_layout": "city_type_3"
+  },
+  {
+    "name": "Island 4",
+    "coords": [
+      40,
+      36
+    ],
+    "background": "assets/backgrounds/island_papyrus.png",
+    "base_resource": "papyrus",
+    "advanced_resource": "glass",
+    "resource_sites": {
+      "papyrus_pond": {
+        "level": 1,
+        "donations": 0
+      },
+      "glassworks": {
+        "level": 1,
+        "donations": 0
+      },
+      "forest": {
+        "level": 1,
+        "donations": 0
+      }
+    },
+    "elements": [
+      {
+        "type": "city",
+        "id": "city_id_10",
+        "name": "City 1",
+        "owner": null,
+        "city_coords": [
+          1211,
+          1183
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_11",
+        "name": "City 2",
+        "owner": null,
+        "city_coords": [
+          575,
+          864
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_12",
+        "name": "City 12",
+        "owner": null,
+        "city_coords": [
+          1093,
+          645
+        ],
+        "controlable": true
+      },
+      {
+        "type": "city",
+        "id": "city_id_13",
+        "name": "City 13",
+        "owner": null,
+        "city_coords": [
+          424,
+          1310
+        ],
+        "controlable": true
+      },
+      {
+        "type": "papyrus_pond",
+        "city_coords": [
+          946,
+          839
+        ]
+      },
+      {
+        "type": "glassworks",
+        "city_coords": [
+          815,
+          966
+        ]
+      },
+      {
+        "type": "forest",
+        "city_coords": [
+          917,
+          1398
+        ]
+      },
+      {
+        "type": "wild_village",
+        "city_coords": [
+          892,
+          1147
+        ]
+      },
+      {
+        "type": "forum",
+        "city_coords": [
+          1118,
+          1563
+        ]
+      }
+    ],
+    "city_layout": "city_type_4"
+  }
+]

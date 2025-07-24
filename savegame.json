@@ -1,0 +1,3781 @@
+{
+    "score": 0,
+    "position_x": 0,
+    "position_y": 0,
+    "islands": [
+        {
+            "name": "Island 1",
+            "coords": [
+                32,
+                13
+            ],
+            "background": "assets/backgrounds/island_stone.png",
+            "base_resource": "stone",
+            "advanced_resource": "marble",
+            "elements": [
+                {
+                    "type": "city",
+                    "name": "Ciu1",
+                    "owner": "player_1",
+                    "island_coords": [
+                        32,
+                        13
+                    ],
+                    "city_type": "player",
+                    "base_resource": "stone",
+                    "resources": {
+                        "wood": 4400.0,
+                        "stone": 4750.0,
+                        "iron": 1000,
+                        "cereal": 0,
+                        "papyrus": 450,
+                        "horse": 10,
+                        "marble": 4100.0,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 0,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "hygiene_percent": 100,
+                        "cereal_needed": 0.0,
+                        "satisfaction": 35,
+                        "population_growth": -0.36,
+                        "population_unfed": 0,
+                        "pop_nourished_by_townhall": 0,
+                        "pop_nourished_by_windmill": 0,
+                        "total_food_supply": 0
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Scierie",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "resource_bonus": {
+                                    "wood": 10
+                                }
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 3
+                        },
+                        {
+                            "name": "Academy",
+                            "level": 2,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "research_points_per_worker": 1.5,
+                                "max_workers": 50
+                            },
+                            "previous_effect": {
+                                "research_points_per_worker": 1,
+                                "max_workers": 25
+                            },
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 4
+                        },
+                        {
+                            "name": "Thermes",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "cleanliness_capacity": 50,
+                                "satisfaction_bonus": 5
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 5
+                        },
+                        {
+                            "name": "Scierie",
+                            "level": 3,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "resource_bonus": {
+                                    "wood": 30
+                                }
+                            },
+                            "previous_effect": {
+                                "resource_bonus": {
+                                    "wood": 20
+                                }
+                            },
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 6
+                        },
+                        null,
+                        null,
+                        {
+                            "name": "Entrep\u00f4t",
+                            "level": 3,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "storage": {
+                                    "wood": 3000,
+                                    "stone": 3000,
+                                    "iron": 3000,
+                                    "cereal": 3000,
+                                    "papyrus": 3000,
+                                    "meat": 2500,
+                                    "marble": 2500,
+                                    "horse": 2500,
+                                    "glass": 2500,
+                                    "gunpowder": 1000,
+                                    "coal": 1000,
+                                    "cotton": 1000,
+                                    "spices": 1000
+                                },
+                                "secure_storage": {
+                                    "wood": 2000,
+                                    "stone": 2000,
+                                    "iron": 2000,
+                                    "cereal": 2000,
+                                    "papyrus": 2000,
+                                    "meat": 1000,
+                                    "marble": 1000,
+                                    "horse": 1000,
+                                    "glass": 1000,
+                                    "gunpowder": 100,
+                                    "coal": 100,
+                                    "cotton": 100,
+                                    "spices": 100
+                                }
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 9
+                        },
+                        {
+                            "name": "Windmill",
+                            "level": 3,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "food_supply": 40,
+                                "cereal_consumption_multiplier": 4
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 10
+                        },
+                        {
+                            "name": "H\u00f4tel de Ville",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "population_growth": 1.2,
+                                "food_capacity": 50,
+                                "population_capacity": 100
+                            },
+                            "previous_effect": {
+                                "population_growth": 1.2,
+                                "food_capacity": 50,
+                                "population_capacity": 100
+                            },
+                            "started_at": "2025-07-22T17:00:12.557342",
+                            "build_duration": 15,
+                            "slot_index": 11
+                        },
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Port",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "ship_production": "transport",
+                                "loading_speed": 10
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 15
+                        },
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {
+                        "stone": 0,
+                        "wood": 0,
+                        "marble": 0,
+                        "academy": 0
+                    },
+                    "controlable": true,
+                    "id": "city_id_1",
+                    "satisfaction": 35,
+                    "satisfaction_factors": {
+                        "bonus": {
+                            "windmill": 0,
+                            "hygiene": 0,
+                            "thermes": 5,
+                            "impots": 20
+                        },
+                        "malus": {
+                            "population": 0,
+                            "famine": 40
+                        }
+                    },
+                    "gold_rate": 2,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 2",
+                    "owner": "player_6",
+                    "island_coords": [
+                        32,
+                        13
+                    ],
+                    "city_type": "player",
+                    "base_resource": "stone",
+                    "resources": {
+                        "wood": 2800.0,
+                        "stone": 1705.0400000000254,
+                        "iron": 800,
+                        "cereal": 0,
+                        "papyrus": 950,
+                        "horse": 10,
+                        "marble": 1220.0,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 0,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "hygiene_percent": 100,
+                        "cereal_needed": 0.0,
+                        "satisfaction": 44,
+                        "population_growth": -0.144,
+                        "population_unfed": 0,
+                        "pop_nourished_by_townhall": 0,
+                        "pop_nourished_by_windmill": 0,
+                        "total_food_supply": 0
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        {
+                            "name": "Ambassade",
+                            "level": 3,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "max_colonies": 4
+                            },
+                            "previous_effect": {},
+                            "started_at": "2025-07-19T20:30:05.794620",
+                            "build_duration": 5,
+                            "slot_index": 1
+                        },
+                        {
+                            "name": "Mine",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "resource_bonus": {
+                                    "stone": 10,
+                                    "iron": 10,
+                                    "cereal": 10,
+                                    "papyrus": 10
+                                }
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 2
+                        },
+                        null,
+                        {
+                            "name": "Entrep\u00f4t",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "storage": {
+                                    "wood": 1000,
+                                    "stone": 1000,
+                                    "iron": 1000,
+                                    "cereal": 1000,
+                                    "papyrus": 1000,
+                                    "meat": 500,
+                                    "marble": 500,
+                                    "horse": 500,
+                                    "glass": 500,
+                                    "gunpowder": 100,
+                                    "coal": 100,
+                                    "cotton": 100,
+                                    "spices": 100
+                                },
+                                "secure_storage": {
+                                    "wood": 100,
+                                    "stone": 100,
+                                    "iron": 100,
+                                    "cereal": 100,
+                                    "papyrus": 100,
+                                    "meat": 50,
+                                    "marble": 50,
+                                    "horse": 50,
+                                    "glass": 50,
+                                    "gunpowder": 10,
+                                    "coal": 10,
+                                    "cotton": 10,
+                                    "spices": 10
+                                }
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 4
+                        },
+                        {
+                            "name": "Thermes",
+                            "level": 2,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "cleanliness_capacity": 150,
+                                "satisfaction_bonus": 10
+                            },
+                            "previous_effect": {},
+                            "started_at": "2025-07-19T20:40:27.149227",
+                            "build_duration": 10,
+                            "slot_index": 5
+                        },
+                        {
+                            "name": "Atelier d'Architecte",
+                            "level": 2,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "construction_cost_reduction": 20,
+                                "construction_time_reduction": 20
+                            },
+                            "previous_effect": {
+                                "construction_cost_reduction": 10,
+                                "construction_time_reduction": 10
+                            },
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 6
+                        },
+                        null,
+                        null,
+                        {
+                            "name": "Academy",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "research_points_per_worker": 1,
+                                "max_workers": 25
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 9
+                        },
+                        {
+                            "name": "Windmill",
+                            "level": 2,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "food_supply": 20,
+                                "cereal_consumption_multiplier": 3
+                            },
+                            "previous_effect": {},
+                            "started_at": "2025-07-19T20:32:33.183711",
+                            "build_duration": 4,
+                            "slot_index": 10
+                        },
+                        {
+                            "name": "H\u00f4tel de Ville",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "population_growth": 1.2,
+                                "food_capacity": 50,
+                                "population_capacity": 100
+                            },
+                            "previous_effect": {},
+                            "started_at": "2025-07-19T20:40:05.812049",
+                            "build_duration": 15,
+                            "slot_index": 11
+                        },
+                        {
+                            "name": "Muraille",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "defense": 50
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 12
+                        },
+                        null,
+                        {
+                            "name": "Port",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "ship_production": "transport",
+                                "loading_speed": 10
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 14
+                        },
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {
+                        "wood": 0,
+                        "stone": 0,
+                        "marble": 0,
+                        "academy": 0
+                    },
+                    "controlable": true,
+                    "id": "city_id_2",
+                    "satisfaction": 44,
+                    "satisfaction_factors": {
+                        "bonus": {
+                            "windmill": 4,
+                            "hygiene": 0,
+                            "thermes": 10,
+                            "impots": 20
+                        },
+                        "malus": {
+                            "population": 0,
+                            "famine": 40
+                        }
+                    },
+                    "gold_rate": 2,
+                    "windmill_cereal_multiplier": 1.9,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 3",
+                    "owner": "",
+                    "island_coords": [
+                        32,
+                        13
+                    ],
+                    "city_type": "player",
+                    "base_resource": "stone",
+                    "resources": {
+                        "wood": 1500,
+                        "stone": 3000,
+                        "iron": 1000,
+                        "cereal": 2000,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 40,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        }
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_3",
+                    "satisfaction": 100,
+                    "satisfaction_factors": {
+                        "bonus": {},
+                        "malus": {}
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 14",
+                    "owner": "",
+                    "island_coords": [
+                        32,
+                        13
+                    ],
+                    "city_type": "player",
+                    "base_resource": "stone",
+                    "resources": {
+                        "wood": 1500,
+                        "stone": 3000,
+                        "iron": 1000,
+                        "cereal": 2000,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 40,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        }
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_14",
+                    "satisfaction": 100,
+                    "satisfaction_factors": {
+                        "bonus": {},
+                        "malus": {}
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 15",
+                    "owner": "",
+                    "island_coords": [
+                        32,
+                        13
+                    ],
+                    "city_type": "player",
+                    "base_resource": "stone",
+                    "resources": {
+                        "wood": 1500,
+                        "stone": 3000,
+                        "iron": 1000,
+                        "cereal": 2000,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 40,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        }
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_15",
+                    "satisfaction": 100,
+                    "satisfaction_factors": {
+                        "bonus": {},
+                        "malus": {}
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "quarry",
+                    "name": "quarry",
+                    "donations": {
+                        "city_id_1": {
+                            "stone": 200
+                        }
+                    },
+                    "donations_history": {
+                        "city_id_1": {
+                            "stone": 200
+                        }
+                    }
+                },
+                {
+                    "type": "marble_mine",
+                    "name": "marble_mine"
+                },
+                {
+                    "type": "forest",
+                    "name": "forest",
+                    "donations": {},
+                    "donations_history": {
+                        "city_id_1": {
+                            "wood": 700
+                        },
+                        "city_id_2": {
+                            "wood": 300
+                        }
+                    },
+                    "level": 4
+                },
+                {
+                    "type": "wild_village",
+                    "name": "wild_village"
+                },
+                {
+                    "type": "forum",
+                    "name": "forum"
+                }
+            ],
+            "city_layout": "city_type_1"
+        },
+        {
+            "name": "Island 2",
+            "coords": [
+                38,
+                40
+            ],
+            "background": "assets/backgrounds/island_iron.png",
+            "base_resource": "iron",
+            "advanced_resource": "horse",
+            "elements": [
+                {
+                    "type": "city",
+                    "name": "City 1",
+                    "owner": "player_5",
+                    "island_coords": [
+                        38,
+                        40
+                    ],
+                    "city_type": "player",
+                    "base_resource": "iron",
+                    "resources": {
+                        "wood": 1000,
+                        "stone": 2700,
+                        "iron": 1000,
+                        "cereal": 0,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 0,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "hygiene_percent": 100,
+                        "cereal_needed": 0.0,
+                        "satisfaction": 15,
+                        "population_growth": -0.84,
+                        "population_unfed": 0,
+                        "pop_nourished_by_townhall": 0,
+                        "pop_nourished_by_windmill": 0,
+                        "total_food_supply": 0
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Thermes",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "cleanliness_capacity": 50,
+                                "satisfaction_bonus": 5
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 5
+                        },
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Entrep\u00f4t",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "storage": {
+                                    "wood": 1000,
+                                    "stone": 1000,
+                                    "iron": 1000,
+                                    "cereal": 1000,
+                                    "papyrus": 1000,
+                                    "meat": 500,
+                                    "marble": 500,
+                                    "horse": 500,
+                                    "glass": 500,
+                                    "gunpowder": 100,
+                                    "coal": 100,
+                                    "cotton": 100,
+                                    "spices": 100
+                                },
+                                "secure_storage": {
+                                    "wood": 100,
+                                    "stone": 100,
+                                    "iron": 100,
+                                    "cereal": 100,
+                                    "papyrus": 100,
+                                    "meat": 50,
+                                    "marble": 50,
+                                    "horse": 50,
+                                    "glass": 50,
+                                    "gunpowder": 10,
+                                    "coal": 10,
+                                    "cotton": 10,
+                                    "spices": 10
+                                }
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 10
+                        },
+                        {
+                            "name": "H\u00f4tel de Ville",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "population_growth": 1.2,
+                                "food_capacity": 50,
+                                "population_capacity": 100
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 11
+                        },
+                        null,
+                        null,
+                        {
+                            "name": "Port",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "ship_production": "transport",
+                                "loading_speed": 10
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 14
+                        },
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_4",
+                    "satisfaction": 15,
+                    "satisfaction_factors": {
+                        "bonus": {
+                            "windmill": 0,
+                            "hygiene": 0,
+                            "thermes": 5
+                        },
+                        "malus": {
+                            "population": 0,
+                            "famine": 40
+                        }
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 2",
+                    "owner": "",
+                    "island_coords": [
+                        38,
+                        40
+                    ],
+                    "city_type": "player",
+                    "base_resource": "iron",
+                    "resources": {
+                        "wood": 1500,
+                        "stone": 3000,
+                        "iron": 1000,
+                        "cereal": 2000,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 40,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        }
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_5",
+                    "satisfaction": 100,
+                    "satisfaction_factors": {
+                        "bonus": {},
+                        "malus": {}
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 3",
+                    "owner": "",
+                    "island_coords": [
+                        38,
+                        40
+                    ],
+                    "city_type": "player",
+                    "base_resource": "iron",
+                    "resources": {
+                        "wood": 1500,
+                        "stone": 3000,
+                        "iron": 1000,
+                        "cereal": 2000,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 40,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        }
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_6",
+                    "satisfaction": 100,
+                    "satisfaction_factors": {
+                        "bonus": {},
+                        "malus": {}
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 16",
+                    "owner": "player_3",
+                    "island_coords": [
+                        38,
+                        40
+                    ],
+                    "city_type": "player",
+                    "base_resource": "iron",
+                    "resources": {
+                        "wood": 1500,
+                        "stone": 3000,
+                        "iron": 1000,
+                        "cereal": 1996.0,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 0,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "hygiene_percent": 100,
+                        "cereal_needed": 0.0,
+                        "satisfaction": 10,
+                        "population_growth": -0.0,
+                        "population_unfed": 0,
+                        "pop_nourished_by_townhall": 0,
+                        "pop_nourished_by_windmill": 0,
+                        "total_food_supply": 0
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_16",
+                    "satisfaction": 10,
+                    "satisfaction_factors": {
+                        "bonus": {
+                            "windmill": 0,
+                            "hygiene": 0
+                        },
+                        "malus": {
+                            "peste": 40,
+                            "population": 0
+                        }
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": true
+                },
+                {
+                    "type": "iron_mine",
+                    "name": "iron_mine"
+                },
+                {
+                    "type": "horse_ranch",
+                    "name": "horse_ranch"
+                },
+                {
+                    "type": "forest",
+                    "name": "forest"
+                },
+                {
+                    "type": "wild_village",
+                    "name": "wild_village"
+                },
+                {
+                    "type": "forum",
+                    "name": "forum"
+                },
+                {
+                    "type": "iron_mine",
+                    "name": "iron_mine",
+                    "level": 1,
+                    "donations": 0
+                },
+                {
+                    "type": "steel_factory",
+                    "name": "steel_factory",
+                    "level": 1,
+                    "donations": 0
+                },
+                {
+                    "type": "forest",
+                    "name": "forest",
+                    "level": 1,
+                    "donations": 0
+                }
+            ],
+            "city_layout": "city_type_2"
+        },
+        {
+            "name": "Island 3",
+            "coords": [
+                36,
+                38
+            ],
+            "background": "assets/backgrounds/island_cereal.png",
+            "base_resource": "cereal",
+            "advanced_resource": "meat",
+            "elements": [
+                {
+                    "type": "city",
+                    "name": "City 1",
+                    "owner": "player_6",
+                    "island_coords": [
+                        36,
+                        38
+                    ],
+                    "city_type": "player",
+                    "base_resource": "cereal",
+                    "resources": {
+                        "wood": 1000,
+                        "stone": 2750,
+                        "iron": 1000,
+                        "cereal": 2000.0,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 100,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "hygiene_percent": 50,
+                        "cereal_needed": 10.0,
+                        "satisfaction": 75,
+                        "population_growth": 0.6,
+                        "population_unfed": 100,
+                        "pop_nourished_by_townhall": 0,
+                        "pop_nourished_by_windmill": 0,
+                        "total_food_supply": 0
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Thermes",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "cleanliness_capacity": 50,
+                                "satisfaction_bonus": 5
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 5
+                        },
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "H\u00f4tel de Ville",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "population_growth": 1.2,
+                                "food_capacity": 50,
+                                "population_capacity": 100
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 11
+                        },
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Port",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "ship_production": "transport",
+                                "loading_speed": 10
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 15
+                        },
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {
+                        "cereal": 10
+                    },
+                    "controlable": true,
+                    "id": "city_id_7",
+                    "satisfaction": 75,
+                    "satisfaction_factors": {
+                        "bonus": {
+                            "windmill": 0,
+                            "hygiene": 0,
+                            "thermes": 5,
+                            "impots": 30
+                        },
+                        "malus": {
+                            "population": 10
+                        }
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 2",
+                    "owner": "player_2",
+                    "island_coords": [
+                        36,
+                        38
+                    ],
+                    "city_type": "player",
+                    "base_resource": "cereal",
+                    "resources": {
+                        "wood": 786,
+                        "stone": 2750,
+                        "iron": 1000,
+                        "cereal": 2000.0,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 50.015999999999885,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "hygiene_percent": 99,
+                        "cereal_needed": 5.001599999999989,
+                        "satisfaction": 50,
+                        "population_growth": 0.0,
+                        "population_unfed": 50.015999999999885,
+                        "pop_nourished_by_townhall": 0,
+                        "pop_nourished_by_windmill": 0,
+                        "total_food_supply": 0
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Thermes",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "cleanliness_capacity": 50,
+                                "satisfaction_bonus": 5
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 5
+                        },
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "H\u00f4tel de Ville",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "population_growth": 1.2,
+                                "food_capacity": 50,
+                                "population_capacity": 100
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 11
+                        },
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Port",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "ship_production": "transport",
+                                "loading_speed": 10
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 15
+                        },
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {
+                        "cereal": 6
+                    },
+                    "controlable": true,
+                    "id": "city_id_8",
+                    "satisfaction": 50,
+                    "satisfaction_factors": {
+                        "bonus": {
+                            "windmill": 0,
+                            "hygiene": 0,
+                            "thermes": 5
+                        },
+                        "malus": {
+                            "population": 5
+                        }
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 3",
+                    "owner": "",
+                    "island_coords": [
+                        36,
+                        38
+                    ],
+                    "city_type": "player",
+                    "base_resource": "cereal",
+                    "resources": {
+                        "wood": 1500,
+                        "stone": 3000,
+                        "iron": 1000,
+                        "cereal": 2000,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 40,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        }
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_9",
+                    "satisfaction": 100,
+                    "satisfaction_factors": {
+                        "bonus": {},
+                        "malus": {}
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "Citylo2",
+                    "owner": "player_1",
+                    "island_coords": [
+                        36,
+                        38
+                    ],
+                    "city_type": "player",
+                    "base_resource": "cereal",
+                    "resources": {
+                        "wood": 2800.0,
+                        "stone": 1016,
+                        "iron": 800,
+                        "cereal": 3000.0,
+                        "papyrus": 650,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 2100.0,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 100,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "hygiene_percent": 150,
+                        "cereal_needed": 6.0,
+                        "satisfaction": 75,
+                        "population_growth": 0.6,
+                        "population_unfed": 60,
+                        "pop_nourished_by_townhall": 0,
+                        "pop_nourished_by_windmill": 40,
+                        "total_food_supply": 40
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        {
+                            "name": "Ambassade",
+                            "level": 3,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "max_colonies": 3
+                            },
+                            "previous_effect": {
+                                "max_colonies": 3
+                            },
+                            "started_at": "2025-07-20T17:38:08.713613",
+                            "build_duration": 5,
+                            "slot_index": 2
+                        },
+                        null,
+                        null,
+                        {
+                            "name": "Thermes",
+                            "level": 2,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "cleanliness_capacity": 150,
+                                "satisfaction_bonus": 10
+                            },
+                            "previous_effect": {
+                                "cleanliness_capacity": 50,
+                                "satisfaction_bonus": 5
+                            },
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 5
+                        },
+                        null,
+                        null,
+                        {
+                            "name": "Entrep\u00f4t",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "storage": {
+                                    "wood": 1000,
+                                    "stone": 1000,
+                                    "iron": 1000,
+                                    "cereal": 1000,
+                                    "papyrus": 1000,
+                                    "meat": 500,
+                                    "marble": 500,
+                                    "horse": 500,
+                                    "glass": 500,
+                                    "gunpowder": 100,
+                                    "coal": 100,
+                                    "cotton": 100,
+                                    "spices": 100
+                                },
+                                "secure_storage": {
+                                    "wood": 100,
+                                    "stone": 100,
+                                    "iron": 100,
+                                    "cereal": 100,
+                                    "papyrus": 100,
+                                    "meat": 50,
+                                    "marble": 50,
+                                    "horse": 50,
+                                    "glass": 50,
+                                    "gunpowder": 10,
+                                    "coal": 10,
+                                    "cotton": 10,
+                                    "spices": 10
+                                }
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 8
+                        },
+                        {
+                            "name": "Academy",
+                            "level": 3,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "research_points_per_worker": 2,
+                                "max_workers": 75
+                            },
+                            "previous_effect": {
+                                "research_points_per_worker": 1.5,
+                                "max_workers": 50
+                            },
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 9
+                        },
+                        {
+                            "name": "Windmill",
+                            "level": 3,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "food_supply": 40,
+                                "cereal_consumption_multiplier": 4
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 10
+                        },
+                        {
+                            "name": "H\u00f4tel de Ville",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "population_growth": 1.2,
+                                "food_capacity": 50,
+                                "population_capacity": 100
+                            },
+                            "previous_effect": {
+                                "population_growth": 1.2,
+                                "food_capacity": 50,
+                                "population_capacity": 100
+                            },
+                            "started_at": "2025-07-20T14:17:19.010892",
+                            "build_duration": 15,
+                            "slot_index": 11
+                        },
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Port",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "ship_production": "transport",
+                                "loading_speed": 10
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 15
+                        },
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {
+                        "cereal": 12,
+                        "wood": 4,
+                        "meat": 1,
+                        "academy": 0
+                    },
+                    "controlable": true,
+                    "id": "city_id_17",
+                    "satisfaction": 75,
+                    "satisfaction_factors": {
+                        "bonus": {
+                            "windmill": 0,
+                            "hygiene": 5,
+                            "thermes": 10,
+                            "impots": 20
+                        },
+                        "malus": {
+                            "population": 10
+                        }
+                    },
+                    "gold_rate": 2,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "grain_field",
+                    "name": "grain_field",
+                    "donations": {
+                        "city_id_17": {
+                            "cereal": 300
+                        }
+                    },
+                    "donations_history": {
+                        "city_id_17": {
+                            "wood": 100,
+                            "cereal": 500
+                        }
+                    },
+                    "level": 2
+                },
+                {
+                    "type": "pasture",
+                    "name": "pasture",
+                    "donations": {
+                        "city_id_17": {
+                            "meat": 100
+                        },
+                        "city_id_7": {
+                            "wood": 100
+                        }
+                    },
+                    "donations_history": {
+                        "city_id_17": {
+                            "meat": 100
+                        },
+                        "city_id_7": {
+                            "wood": 100
+                        }
+                    },
+                    "upgrade_start_time": "2025-07-19T20:22:47.055653+00:00",
+                    "upgrade_time": 10
+                },
+                {
+                    "type": "forest",
+                    "name": "forest"
+                },
+                {
+                    "type": "wild_village",
+                    "name": "wild_village"
+                },
+                {
+                    "type": "forum",
+                    "name": "forum"
+                },
+                {
+                    "type": "grain_field",
+                    "name": "grain_field",
+                    "level": 1,
+                    "donations": 0
+                },
+                {
+                    "type": "brewery",
+                    "name": "brewery",
+                    "level": 1,
+                    "donations": 0
+                },
+                {
+                    "type": "forest",
+                    "name": "forest",
+                    "level": 1,
+                    "donations": 0
+                }
+            ],
+            "city_layout": "city_type_3"
+        },
+        {
+            "name": "Island 4",
+            "coords": [
+                40,
+                36
+            ],
+            "background": "assets/backgrounds/island_papyrus.png",
+            "base_resource": "papyrus",
+            "advanced_resource": "glass",
+            "elements": [
+                {
+                    "type": "city",
+                    "name": "City 1",
+                    "owner": "player_6",
+                    "island_coords": [
+                        40,
+                        36
+                    ],
+                    "city_type": "player",
+                    "base_resource": "papyrus",
+                    "resources": {
+                        "wood": 2800.0,
+                        "stone": 2758,
+                        "iron": 1000,
+                        "cereal": 0,
+                        "papyrus": 3000.0,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 0,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "hygiene_percent": 100,
+                        "cereal_needed": 0.0,
+                        "satisfaction": 38,
+                        "population_growth": -0.288,
+                        "population_unfed": 0,
+                        "pop_nourished_by_townhall": 0,
+                        "pop_nourished_by_windmill": 0,
+                        "total_food_supply": 0
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Entrep\u00f4t",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "storage": {
+                                    "wood": 1000,
+                                    "stone": 1000,
+                                    "iron": 1000,
+                                    "cereal": 1000,
+                                    "papyrus": 1000,
+                                    "meat": 500,
+                                    "marble": 500,
+                                    "horse": 500,
+                                    "glass": 500,
+                                    "gunpowder": 100,
+                                    "coal": 100,
+                                    "cotton": 100,
+                                    "spices": 100
+                                },
+                                "secure_storage": {
+                                    "wood": 100,
+                                    "stone": 100,
+                                    "iron": 100,
+                                    "cereal": 100,
+                                    "papyrus": 100,
+                                    "meat": 50,
+                                    "marble": 50,
+                                    "horse": 50,
+                                    "glass": 50,
+                                    "gunpowder": 10,
+                                    "coal": 10,
+                                    "cotton": 10,
+                                    "spices": 10
+                                }
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 3
+                        },
+                        {
+                            "name": "Thermes",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "cleanliness_capacity": 50,
+                                "satisfaction_bonus": 5
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 4
+                        },
+                        {
+                            "name": "Atelier d'Architecte",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "construction_cost_reduction": 10,
+                                "construction_time_reduction": 10
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 5
+                        },
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Windmill",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "food_supply": 10,
+                                "cereal_consumption_multiplier": 2
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 9
+                        },
+                        {
+                            "name": "Academy",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "research_points_per_worker": 1,
+                                "max_workers": 25
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 10
+                        },
+                        {
+                            "name": "H\u00f4tel de Ville",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "population_growth": 1.2,
+                                "food_capacity": 50,
+                                "population_capacity": 100
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 11
+                        },
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Port",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "ship_production": "transport",
+                                "loading_speed": 10
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 15
+                        },
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {
+                        "academy": 0,
+                        "papyrus": 0,
+                        "wood": 0
+                    },
+                    "controlable": true,
+                    "id": "city_id_10",
+                    "satisfaction": 38,
+                    "satisfaction_factors": {
+                        "bonus": {
+                            "windmill": 3,
+                            "hygiene": 0,
+                            "thermes": 5,
+                            "impots": 20
+                        },
+                        "malus": {
+                            "population": 0,
+                            "famine": 40
+                        }
+                    },
+                    "gold_rate": 2,
+                    "windmill_cereal_multiplier": 1.3,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "TOYLAND2",
+                    "owner": "player_1",
+                    "island_coords": [
+                        40,
+                        36
+                    ],
+                    "city_type": "player",
+                    "base_resource": "papyrus",
+                    "resources": {
+                        "wood": 330,
+                        "stone": 2470,
+                        "iron": 1000,
+                        "cereal": 0,
+                        "papyrus": 900,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 0,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "hygiene_percent": 100,
+                        "cereal_needed": 0.0,
+                        "satisfaction": 15,
+                        "population_growth": -0.84,
+                        "population_unfed": 0,
+                        "pop_nourished_by_townhall": 0,
+                        "pop_nourished_by_windmill": 0,
+                        "total_food_supply": 0
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Windmill",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "food_supply": 10,
+                                "cereal_consumption_multiplier": 2
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 3
+                        },
+                        {
+                            "name": "Thermes",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "cleanliness_capacity": 50,
+                                "satisfaction_bonus": 5
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 4
+                        },
+                        {
+                            "name": "Academy",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "research_points_per_worker": 1,
+                                "max_workers": 25
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 5
+                        },
+                        {
+                            "name": "Scierie",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "resource_bonus": {
+                                    "wood": 10
+                                }
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 6
+                        },
+                        null,
+                        null,
+                        {
+                            "name": "Academy",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "research_points_per_worker": 1,
+                                "max_workers": 25
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 9
+                        },
+                        {
+                            "name": "Entrep\u00f4t",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "storage": {
+                                    "wood": 1000,
+                                    "stone": 1000,
+                                    "iron": 1000,
+                                    "cereal": 1000,
+                                    "papyrus": 1000,
+                                    "meat": 500,
+                                    "marble": 500,
+                                    "horse": 500,
+                                    "glass": 500,
+                                    "gunpowder": 100,
+                                    "coal": 100,
+                                    "cotton": 100,
+                                    "spices": 100
+                                },
+                                "secure_storage": {
+                                    "wood": 100,
+                                    "stone": 100,
+                                    "iron": 100,
+                                    "cereal": 100,
+                                    "papyrus": 100,
+                                    "meat": 50,
+                                    "marble": 50,
+                                    "horse": 50,
+                                    "glass": 50,
+                                    "gunpowder": 10,
+                                    "coal": 10,
+                                    "cotton": 10,
+                                    "spices": 10
+                                }
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 10
+                        },
+                        {
+                            "name": "H\u00f4tel de Ville",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "population_growth": 1.2,
+                                "food_capacity": 50,
+                                "population_capacity": 100
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 11
+                        },
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Port",
+                            "level": 1,
+                            "status": "Termin\u00e9",
+                            "timer": 0,
+                            "effect": {
+                                "ship_production": "transport",
+                                "loading_speed": 10
+                            },
+                            "previous_effect": {},
+                            "started_at": null,
+                            "build_duration": 0,
+                            "slot_index": 15
+                        },
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_11",
+                    "satisfaction": 15,
+                    "satisfaction_factors": {
+                        "bonus": {
+                            "windmill": 0,
+                            "hygiene": 0,
+                            "thermes": 5
+                        },
+                        "malus": {
+                            "population": 0,
+                            "famine": 40
+                        }
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 12",
+                    "owner": "",
+                    "island_coords": [
+                        40,
+                        36
+                    ],
+                    "city_type": "player",
+                    "base_resource": "papyrus",
+                    "resources": {
+                        "wood": 1500,
+                        "stone": 3000,
+                        "iron": 1000,
+                        "cereal": 2000,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 40,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        }
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_12",
+                    "satisfaction": 100,
+                    "satisfaction_factors": {
+                        "bonus": {},
+                        "malus": {}
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "city",
+                    "name": "City 13",
+                    "owner": "",
+                    "island_coords": [
+                        40,
+                        36
+                    ],
+                    "city_type": "player",
+                    "base_resource": "papyrus",
+                    "resources": {
+                        "wood": 1500,
+                        "stone": 3000,
+                        "iron": 1000,
+                        "cereal": 2000,
+                        "papyrus": 1000,
+                        "horse": 10,
+                        "marble": 20,
+                        "glass": 30,
+                        "meat": 40,
+                        "coal": 50,
+                        "gunpowder": 60,
+                        "spices": 70,
+                        "cotton": 80,
+                        "gold": 1000000.0,
+                        "population_total": 40,
+                        "population_free": 40,
+                        "research_points": 800,
+                        "production_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "building_bonus": {
+                            "wood": 0,
+                            "stone": 0,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        },
+                        "research_bonus": {
+                            "wood": 4,
+                            "stone": 8,
+                            "iron": 0,
+                            "cereal": 0,
+                            "papyrus": 0,
+                            "horse": 0,
+                            "marble": 0,
+                            "glass": 0,
+                            "meat": 0,
+                            "coal": 0,
+                            "gunpowder": 0,
+                            "spices": 0,
+                            "cotton": 0,
+                            "gold": 0
+                        }
+                    },
+                    "storage_capacity": {
+                        "wood": 1800,
+                        "stone": 2000,
+                        "iron": 2000,
+                        "cereal": 2000,
+                        "papyrus": 2000,
+                        "horse": 1600,
+                        "marble": 1600,
+                        "glass": 1600,
+                        "meat": 1600,
+                        "coal": 1600,
+                        "gunpowder": 1600,
+                        "spices": 1600,
+                        "cotton": 1600,
+                        "gold": 1000000,
+                        "population": 1000
+                    },
+                    "buildings": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "categories": [
+                        "defensive",
+                        "defensive",
+                        "marine",
+                        "marine",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general",
+                        "general"
+                    ],
+                    "research_points_per_tick": 0,
+                    "unlocked_buildings": [],
+                    "workers_assigned": {},
+                    "controlable": true,
+                    "id": "city_id_13",
+                    "satisfaction": 100,
+                    "satisfaction_factors": {
+                        "bonus": {},
+                        "malus": {}
+                    },
+                    "gold_rate": 1,
+                    "windmill_cereal_multiplier": 1,
+                    "has_plague": false
+                },
+                {
+                    "type": "papyrus_pond",
+                    "name": "papyrus_pond",
+                    "donations": {
+                        "city_id_10": {
+                            "wood": 150
+                        }
+                    },
+                    "donations_history": {
+                        "city_id_10": {
+                            "wood": 150
+                        }
+                    }
+                },
+                {
+                    "type": "glassworks",
+                    "name": "glassworks"
+                },
+                {
+                    "type": "forest",
+                    "name": "forest",
+                    "donations": {
+                        "city_id_10": {
+                            "wood": 200
+                        }
+                    },
+                    "donations_history": {
+                        "city_id_10": {
+                            "wood": 200
+                        }
+                    },
+                    "upgrade_start_time": "2025-07-19T20:32:01.168966+00:00",
+                    "upgrade_time": 5
+                },
+                {
+                    "type": "wild_village",
+                    "name": "wild_village"
+                },
+                {
+                    "type": "forum",
+                    "name": "forum"
+                },
+                {
+                    "type": "papyrus_pond",
+                    "name": "papyrus_pond",
+                    "level": 1,
+                    "donations": 0
+                },
+                {
+                    "type": "glassworks",
+                    "name": "glassworks",
+                    "level": 1,
+                    "donations": 0
+                },
+                {
+                    "type": "forest",
+                    "name": "forest",
+                    "level": 1,
+                    "donations": 0
+                }
+            ],
+            "city_layout": "city_type_4"
+        }
+    ],
+    "players": {
+        "player_1": {
+            "id_player": "player_1",
+            "username": "k",
+            "password": "",
+            "unlocked_research": [
+                "Agriculture",
+                "plan_de_construction"
+            ],
+            "points": 0,
+            "military_points": 0,
+            "ships": 6,
+            "ships_available": 6,
+            "research_points": 84355.2370000309,
+            "diamonds": 100
+        },
+        "player_2": {
+            "id_player": "player_2",
+            "username": "t",
+            "password": "",
+            "unlocked_research": [],
+            "points": 0,
+            "military_points": 0,
+            "ships": 4,
+            "ships_available": 4,
+            "research_points": 0,
+            "diamonds": 100
+        },
+        "player_3": {
+            "id_player": "player_3",
+            "username": "n",
+            "password": "",
+            "unlocked_research": [],
+            "points": 0,
+            "military_points": 0,
+            "ships": 1,
+            "ships_available": 1,
+            "research_points": 0,
+            "diamonds": 100
+        },
+        "player_4": {
+            "id_player": "player_4",
+            "username": "o",
+            "password": "",
+            "unlocked_research": [],
+            "points": 0,
+            "military_points": 0,
+            "ships": 1,
+            "ships_available": 1,
+            "research_points": 0,
+            "diamonds": 100
+        },
+        "player_5": {
+            "id_player": "player_5",
+            "username": "b",
+            "password": "",
+            "unlocked_research": [],
+            "points": 0,
+            "military_points": 0,
+            "ships": 1,
+            "ships_available": 1,
+            "research_points": 0,
+            "diamonds": 100
+        },
+        "player_6": {
+            "id_player": "player_6",
+            "username": "p",
+            "password": "",
+            "unlocked_research": [
+                "Agriculture",
+                "Extraction Mini\u00e8re",
+                "Architecte",
+                "plan_de_construction",
+                "\u00c9criture",
+                "Expansion",
+                "Math\u00e9matiques"
+            ],
+            "points": 0,
+            "military_points": 0,
+            "ships": 6,
+            "ships_available": 6,
+            "research_points": 6120.557999992857,
+            "diamonds": 100
+        }
+    },
+    "active_city": null,
+    "transports": []
+}

@@ -1,0 +1,118 @@
+{
+  "city_type_1": {
+    "background": "assets/city/city_type1.png",
+    "slots": [
+      {"id": "slot_1", "x": 0.10, "y": 0.10, "type": "general", "locked": false},
+      {"id": "slot_2", "x": 0.20, "y": 0.15, "type": "general", "locked": false},
+      {"id": "slot_3", "x": 0.30, "y": 0.20, "type": "general", "locked": false},
+      {"id": "slot_4", "x": 0.40, "y": 0.25, "type": "general", "locked": false},
+      {"id": "slot_5", "x": 0.50, "y": 0.30, "type": "general", "locked": false},
+      {"id": "slot_6", "x": 0.60, "y": 0.35, "type": "general", "locked": false},
+      {"id": "slot_7", "x": 0.70, "y": 0.40, "type": "general", "locked": false},
+      {"id": "slot_8", "x": 0.80, "y": 0.45, "type": "general", "locked": false},
+      {"id": "slot_9", "x": 0.20, "y": 0.50, "type": "general", "locked": false},
+      {"id": "slot_10", "x": 0.30, "y": 0.45, "type": "general", "locked": false},
+      {"id": "slot_11", "x": 0.40, "y": 0.40, "type": "general", "locked": false},
+      {"id": "slot_12", "x": 0.50, "y": 0.55, "type": "general", "locked": false},
+
+
+      {"id": "slot_13", "x": 0.60, "y": 0.80, "type": "defensive", "locked": false},
+      {"id": "slot_14", "x": 0.70, "y": 0.65, "type": "defensive", "locked": false},
+
+      {"id": "slot_15", "x": 0.80, "y": 0.60, "type": "marine", "locked": false},
+      {"id": "slot_16", "x": 0.90, "y": 0.75, "type": "marine", "locked": false},
+
+      {"id": "slot_17", "x": 0.15, "y": 0.60, "type": "general", "locked": true},
+      {"id": "slot_18", "x": 0.25, "y": 0.65, "type": "general", "locked": true},
+      {"id": "slot_19", "x": 0.35, "y": 0.70, "type": "general", "locked": true},
+      {"id": "slot_20", "x": 0.45, "y": 0.75, "type": "general", "locked": true}
+    ]
+  },
+  "city_type_2": {
+    "background": "assets/city/city_type2.png",
+    "slots": [
+      {"id": "slot_1", "x": 0.10, "y": 0.10, "type": "general", "locked": false},
+      {"id": "slot_2", "x": 0.20, "y": 0.15, "type": "general", "locked": false},
+      {"id": "slot_3", "x": 0.30, "y": 0.20, "type": "general", "locked": false},
+      {"id": "slot_4", "x": 0.40, "y": 0.25, "type": "general", "locked": false},
+      {"id": "slot_5", "x": 0.50, "y": 0.30, "type": "general", "locked": false},
+      {"id": "slot_6", "x": 0.60, "y": 0.35, "type": "general", "locked": false},
+      {"id": "slot_7", "x": 0.70, "y": 0.40, "type": "general", "locked": false},
+      {"id": "slot_8", "x": 0.80, "y": 0.45, "type": "general", "locked": false},
+      {"id": "slot_9", "x": 0.20, "y": 0.50, "type": "general", "locked": false},
+      {"id": "slot_10", "x": 0.30, "y": 0.45, "type": "general", "locked": false},
+      {"id": "slot_11", "x": 0.40, "y": 0.40, "type": "general", "locked": false},
+      {"id": "slot_12", "x": 0.50, "y": 0.55, "type": "general", "locked": false},
+
+
+      {"id": "slot_13", "x": 0.60, "y": 0.80, "type": "defensive", "locked": false},
+      {"id": "slot_14", "x": 0.70, "y": 0.65, "type": "defensive", "locked": false},
+
+      {"id": "slot_15", "x": 0.80, "y": 0.60, "type": "marine", "locked": false},
+      {"id": "slot_16", "x": 0.90, "y": 0.75, "type": "marine", "locked": false},
+
+      {"id": "slot_17", "x": 0.15, "y": 0.60, "type": "general", "locked": true},
+      {"id": "slot_18", "x": 0.25, "y": 0.65, "type": "general", "locked": true},
+      {"id": "slot_19", "x": 0.35, "y": 0.70, "type": "general", "locked": true},
+      {"id": "slot_20", "x": 0.45, "y": 0.75, "type": "general", "locked": true}
+    ]
+  },
+  "city_type_3": {
+    "background": "assets/city/city_type3.png",
+    "slots": [
+      {"id": "slot_1", "x": 0.10, "y": 0.10, "type": "general", "locked": false},
+      {"id": "slot_2", "x": 0.20, "y": 0.15, "type": "general", "locked": false},
+      {"id": "slot_3", "x": 0.30, "y": 0.20, "type": "general", "locked": false},
+      {"id": "slot_4", "x": 0.40, "y": 0.25, "type": "general", "locked": false},
+      {"id": "slot_5", "x": 0.50, "y": 0.30, "type": "general", "locked": false},
+      {"id": "slot_6", "x": 0.60, "y": 0.35, "type": "general", "locked": false},
+      {"id": "slot_7", "x": 0.70, "y": 0.40, "type": "general", "locked": false},
+      {"id": "slot_8", "x": 0.80, "y": 0.45, "type": "general", "locked": false},
+      {"id": "slot_9", "x": 0.20, "y": 0.50, "type": "general", "locked": false},
+      {"id": "slot_10", "x": 0.30, "y": 0.45, "type": "general", "locked": false},
+      {"id": "slot_11", "x": 0.40, "y": 0.40, "type": "general", "locked": false},
+      {"id": "slot_12", "x": 0.50, "y": 0.55, "type": "general", "locked": false},
+
+
+      {"id": "slot_13", "x": 0.60, "y": 0.80, "type": "defensive", "locked": false},
+      {"id": "slot_14", "x": 0.70, "y": 0.65, "type": "defensive", "locked": false},
+
+      {"id": "slot_15", "x": 0.80, "y": 0.60, "type": "marine", "locked": false},
+      {"id": "slot_16", "x": 0.90, "y": 0.75, "type": "marine", "locked": false},
+
+      {"id": "slot_17", "x": 0.15, "y": 0.60, "type": "general", "locked": true},
+      {"id": "slot_18", "x": 0.25, "y": 0.65, "type": "general", "locked": true},
+      {"id": "slot_19", "x": 0.35, "y": 0.70, "type": "general", "locked": true},
+      {"id": "slot_20", "x": 0.45, "y": 0.75, "type": "general", "locked": true}
+    ]
+  },
+  "city_type_4": {
+    "background": "assets/city/city_type4.png",
+    "slots": [
+      {"id": "slot_1", "x": 0.10, "y": 0.10, "type": "general", "locked": false},
+      {"id": "slot_2", "x": 0.20, "y": 0.15, "type": "general", "locked": false},
+      {"id": "slot_3", "x": 0.30, "y": 0.20, "type": "general", "locked": false},
+      {"id": "slot_4", "x": 0.40, "y": 0.25, "type": "general", "locked": false},
+      {"id": "slot_5", "x": 0.50, "y": 0.30, "type": "general", "locked": false},
+      {"id": "slot_6", "x": 0.60, "y": 0.35, "type": "general", "locked": false},
+      {"id": "slot_7", "x": 0.70, "y": 0.40, "type": "general", "locked": false},
+      {"id": "slot_8", "x": 0.80, "y": 0.45, "type": "general", "locked": false},
+      {"id": "slot_9", "x": 0.20, "y": 0.50, "type": "general", "locked": false},
+      {"id": "slot_10", "x": 0.30, "y": 0.45, "type": "general", "locked": false},
+      {"id": "slot_11", "x": 0.40, "y": 0.40, "type": "general", "locked": false},
+      {"id": "slot_12", "x": 0.50, "y": 0.55, "type": "general", "locked": false},
+
+
+      {"id": "slot_13", "x": 0.60, "y": 0.80, "type": "defensive", "locked": false},
+      {"id": "slot_14", "x": 0.70, "y": 0.65, "type": "defensive", "locked": false},
+
+      {"id": "slot_15", "x": 0.80, "y": 0.60, "type": "marine", "locked": false},
+      {"id": "slot_16", "x": 0.90, "y": 0.75, "type": "marine", "locked": false},
+
+      {"id": "slot_17", "x": 0.15, "y": 0.60, "type": "general", "locked": true},
+      {"id": "slot_18", "x": 0.25, "y": 0.65, "type": "general", "locked": true},
+      {"id": "slot_19", "x": 0.35, "y": 0.70, "type": "general", "locked": true},
+      {"id": "slot_20", "x": 0.45, "y": 0.75, "type": "general", "locked": true}
+    ]
+  }
+}

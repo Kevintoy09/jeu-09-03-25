@@ -1,0 +1,39 @@
+# 🎮 Fichiers à ignorer pour la compilation APK
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Buildozer
+.buildozer/
+bin/
+
+# Virtual environments
+venv/
+env/
+myenv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package pour Kivy Launcher (temporaire)
+kivy_launcher_package/
+
+# Sauvegarde
+*.bak
+*.backup

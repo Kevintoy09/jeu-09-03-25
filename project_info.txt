@@ -1,0 +1,39 @@
+Projet  Gestion de Ville - Jeu de stratégie multijoueur (inspiré d'Ikariam)
+
+Résumé 
+Ce projet est un jeu de gestion de villes stratégie multijoueur, très inspiré du jeu Ikariam. Chaque joueur développe sa cité, colonise de nouvelles îles, construit des bâtiments, gère ses ressources, lance des recherches scientifiques et participe à des guerres. Le jeu est accessible aussi bien sur smartphone que sur PC, permettant aux joueurs de jouer ensemble en temps réel via un serveur Python (Flask).
+
+Principaux modules et responsabilités 
+- models  Définit les objets métiers (Ville, Bâtiment, Joueur…).
+- managers  Contient la logique métier (BuildingsManager, ResourceManager, ResearchManager…).
+- widgets  Composants UI Kivy (popups, timers, listes…).
+- data  Données statiques (bâtiments, recherches, ressources…).
+- server.py  Point d’entrée du serveur Flask, reçoit les requêtes des clients et coordonne les actions.
+- client (Kivy)  Interface graphique pour le joueur, synchronise son état avec le serveur.
+
+Fonctionnalités majeures 
+- Jeu multijoueur en temps réel  Les joueurs peuvent s'affronter, collaborer ou commercer, chacun développant ses propres villes et colonies.
+- Colonisation d'îles  Chaque île peut accueillir plusieurs villes de différents joueurs ; la colonisation est un aspect central du gameplay.
+- Construction de bâtiments  Chaque bâtiment a des niveaux, des effets et des coûts croissants. L’évolution dépend de recherches et de ressources.
+- Recherche scientifique  Débloque des bâtimentsfonctionnalités, améliore la gestion ou la production.
+- Gestion des ressources  Bois, pierre, vin, etc. Nécessaires pour construire, évoluer ou rechercher.
+- Guerre et défense  Systèmes de combat, de conquête, de pillage ou de défense des villes.
+- Timers  Les constructions prennent du temps (gestion côté serveur), le joueur peut accélérer certaines actions via des recherches.
+- Notifications  Les événements importants notifient le joueur (fin de construction, attaque, etc.).
+- Compatibilité multiplateforme  L’UI et les fonctionnalités sont pensées pour une expérience fluide sur smartphone et PC.
+- Synchronisation clientserveur  Toute action majeure est validée serveur, le client affiche l’état à jour.
+
+Points de vigilancerègles 
+- Toute modification d’état (construction, destruction, recherche, guerre…) doit passer par le serveur.
+- Les modèles (Ville, Bâtiment, Joueur) sont toujours manipulés via leurs méthodes, jamais comme des dicts bruts.
+- Les effets de bonusmalus doivent être recalculés après chaque modification majeure (construction, destruction, recherche).
+- La liste des recherches débloquées doit rester parfaitement synchronisée entre client et serveur (nom exact !).
+
+Pour aller plus loin 
+- La séparation des responsabilités et la centralisation de la logique métier côté manager facilitent la maintenance et l’évolution.
+- Les popups UI ne doivent contenir aucune logique métier  elles affichent seulement l’état courant, appellent les managers ou le serveur pour toute action.
+- Utiliser le même nom pour chaque recherchebâtiment partout (data, serveur, client).
+
+Contact principal  Kevin (Kevintoy09)
+
+Dernière mise à jour  2025-07-03

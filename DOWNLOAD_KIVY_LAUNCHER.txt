@@ -1,0 +1,26 @@
+📱 TÉLÉCHARGER KIVY LAUNCHER - GUIDE COMPLET
+════════════════════════════════════════════════
+
+⚠️  IMPORTANT : Kivy Launcher n'est plus sur Google Play Store !
+
+🔗 TÉLÉCHARGEMENT OFFICIEL :
+   https://github.com/kivy/kivy-launcher/releases
+
+📲 ÉTAPES :
+   1. Allez sur GitHub : https://github.com/kivy/kivy-launcher
+   2. Cliquez sur "Releases" (à droite)
+   3. Téléchargez le fichier .apk le plus récent
+   4. Sur Android : Autorisez "Sources inconnues"
+   5. Installez l'APK
+
+🛡️ SÉCURITÉ :
+   ✅ APK officiel Kivy (safe)
+   ✅ Open source
+   ✅ Pas de malware
+
+🔄 ALTERNATIVE : F-Droid
+   1. Installez F-Droid (store open source)
+   2. Cherchez "Kivy Launcher" dans F-Droid
+   3. Installez depuis F-Droid
+
+════════════════════════════════════════════════

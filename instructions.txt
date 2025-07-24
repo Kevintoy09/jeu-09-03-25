@@ -1,0 +1,28 @@
+# Grandes lignes du projet
+- Jeu de gestion/stratégie inspiré d’Ikariam.
+- Jouable en temps réel, multijoueur, sur smartphone et PC.
+- Gestion de villes, ressources, bâtiments, armées, commerce, etc.
+- Interface adaptée au tactile et au desktop.
+- Priorité à la performance, la clarté et la simplicité d’utilisation.
+
+# Préférences d’utilisation
+
+- Toujours répondre en français, de façon claire et concise.
+- Privilégier les explications courtes, mais précises, pour chaque modification de code.
+- Proposer des solutions robustes, faciles à maintenir et adaptées à un projet évolutif.
+- Éviter les dépendances inutiles : utiliser uniquement des bibliothèques Python standards ou déjà présentes dans le projet.
+- Adapter les exemples pour qu’ils soient directement intégrables dans mon code existant.
+- Si une solution nécessite un choix d’architecture, proposer les avantages/inconvénients.
+- Toujours vérifier la compatibilité multiplateforme (PC et mobile).
+- Ne pas proposer de code JavaScript, TypeScript ou web.
+- Si une question n’est pas claire, demander des précisions avant de répondre.
+
+# Précisions importantes sur l’assistance attendue
+
+- Je ne connais pas le langage de programmation : j’ai besoin d’une assistance complète, étape par étape, pour chaque modification ou ajout de code.
+- RAPPEL INSTRUCTION Toujours fournir le code modifié directement dans la conversation, prêt à être copié/collé, sans passer par des outils d’intégration automatique.
+- Si mes instructions ou questions ne sont pas claires, demander systématiquement une reformulation ou des précisions avant de proposer une solution.
+- Expliquer chaque modification de façon pédagogique, même pour les bases.
+- Ne jamais supposer que je comprends le vocabulaire technique : vulgariser si besoin.
+- Ne pas hésiter à me guider sur les manipulations à faire dans l’éditeur ou l’environnement de développement.
+- Privilégier la clarté, la patience et la pédagogie dans toutes les réponses.
